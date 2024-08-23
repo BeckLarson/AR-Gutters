@@ -1,37 +1,21 @@
 
 header{
     width: 100%;
-}
-.head{
-background-color: transparent;
+    background-color: rgba(255, 0, 0, 0.596);
+    text-align: center;
+    position: fixed;
 }
 table{
     width: 100%;
 }
 
 button{
-    float: right;
     background-color: rgba(0, 0, 0, 0);
     color: black;
-    font-weight: bolder;
-    border-radius: 5px;
+    font-weight: 900;
     border-color: transparent;
 }
 
 button:hover{
-    background-color: rgb(252, 161, 161);
-}
-
-a{
-    color: black;
-}
-
-td{
-    width: 20%;
-}
-
-img{
-    float: left;
-    margin-left: 5%;
-    width: 250px;
+    background-color: pink;
 }
