@@ -9,13 +9,23 @@ table{
     width: 100%;
 }
 
-button{
+a{
     background-color: rgba(0, 0, 0, 0);
     color: black;
     font-weight: 900;
     border-color: transparent;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.button-div{
+    width: 50%;
+    margin: auto;
 }
 
-button:hover{
-    background-color: pink;
+.button-div:hover{
+    cursor: pointer;
+    background-color: red;
+    a{
+        color: white;
+    }
 }

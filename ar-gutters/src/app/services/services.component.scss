@@ -68,11 +68,13 @@ button{
     color: white;
     font-weight: 900;
     font-family: "Oswald", sans-serif;
-    width: 50%;
+    width: 30%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size:  clamp(5px, 2vw, 12px)
 }
 
 button:hover{
+    cursor: pointer;
     background-color: rgba(255, 0, 0, 0.308);
 }
