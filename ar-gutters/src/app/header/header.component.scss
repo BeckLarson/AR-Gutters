@@ -4,6 +4,7 @@ header{
     background-color: rgba(255, 0, 0, 0.596);
     text-align: center;
     position: fixed;
+    z-index: 99 !important;
 }
 table{
     width: 100%;
