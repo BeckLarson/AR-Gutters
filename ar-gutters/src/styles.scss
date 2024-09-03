@@ -8,4 +8,8 @@ body{margin: 0;
     background-attachment: fixed;
     font-family: "Oswald", sans-serif;
     font-style: normal;
+
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
