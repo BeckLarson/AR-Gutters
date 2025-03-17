@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, HammerModule } from '@angular/platform-browser';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -33,7 +34,9 @@ import { GoogleBarComponent } from './google-bar/google-bar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HammerModule
+    HammerModule,
+    NgxGoogleAnalyticsModule.forRoot('G-JS6M1WVFE0'),
+    NgxGoogleAnalyticsRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
